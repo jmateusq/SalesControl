@@ -1,5 +1,7 @@
 
 # Gestor de Vendas de Roupas
+link do github com o projeto  
+https://github.com/jmateusq/SalesControl
 
 Um gestor (via terminal) de vendas de roupas personalizadas. Tendo a opção de cadastrar coletes ou camisas.
 
