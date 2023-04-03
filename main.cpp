@@ -24,14 +24,14 @@ do {
             cout<<"R - Remove Pedido"<<endl;
             cout<<"F - Fechar Programa"<<endl;
             cin>>op;
-            system("clear||cls");
+            system("clear");
             break;
         }
         case 'L': { 
             cadastro.imprime();
             cout<<"Envie qualquer tecla para sair"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }
@@ -41,7 +41,7 @@ do {
             cadastro.imprime(cliente);
             cout<<"Envie qualquer tecla para voltar ao menu"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }
@@ -51,7 +51,7 @@ do {
             cadastro.imprime(codigo);
             cout<<"Envie qualquer tecla para voltar ao menu"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }
@@ -59,7 +59,7 @@ do {
             cadastro.adcionaPedido();
             cout<<"Envie qualquer tecla para voltar ao menu"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }
@@ -71,7 +71,7 @@ do {
             cadastro.imprime(codigo);
             cout<<"Envie qualquer tecla para voltar ao menu"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }
@@ -82,7 +82,7 @@ do {
             cout << (ok ? "PEDIDO REMOVIDO" : "ERRO: Pedido NÃO removido") << endl;
             cout<<"Envie qualquer tecla para voltar ao menu"<<endl;
             cin>>espera;
-            system("clear||cls");
+            system("clear");
             op='T';
             break;
         }

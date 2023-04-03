@@ -7,24 +7,12 @@ class qtde{
         int quantidade;
         std::string tamanho;
     public:
-        qtde(int quantidade, std::string tamanho):quantidade(quantidade),tamanho(tamanho){
-        }
-        virtual ~qtde(){
-        }
-        bool setQtde(int quantidade){
-            this->quantidade=quantidade;
-            return true;
-        }
-        bool setTamanho(std::string tamanho){
-            this->tamanho=tamanho;
-            return true;
-        }
-        int getQtde(){
-            return this->quantidade;
-        }
-        std::string getTamanho(){
-            return this->tamanho;
-        }
+        qtde(int quantidade, std::string tamanho);
+        ~qtde();
+        bool setQtde(int quantidade);
+        bool setTamanho(std::string tamanho);
+        int getQtde();
+        std::string getTamanho();
 };
 
 #endif
