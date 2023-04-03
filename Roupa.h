@@ -17,7 +17,6 @@ class Roupa{
     public:
         Roupa(vector <qtde*> qtde_tam,double preco, string tecido, int codigo,string cliente);
         virtual ~Roupa();
-        bool Desconto(int desconto);
         virtual void imprime() const;
         double getPreco() const;
         string getTecido() const;
