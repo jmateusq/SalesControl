@@ -48,6 +48,8 @@ Um gestor (via terminal) de vendas de roupas personalizadas. Tendo a opção de 
 # Instruções para compilação
 A compilação desse codigo é bem simples.  
 
+Se você usa Alguma base ubuntu LTS >= 22.04 O executavel pronto deve funcionar
+
 Abaixo segue o paso a passo para linux para gerar o executavel "Sales" que pode ser executado no terminal por um ./Sales  
 
 1 - Instale o g++ em sua distribuição  
