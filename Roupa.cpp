@@ -9,11 +9,6 @@ Roupa::~Roupa(){
 
 }
 
-bool Roupa::Desconto(int desconto){
-    this->preco-=desconto;
-    return true;
-}
-
 void Roupa::imprime() const{
     int total=0;
     cout<<"Pedido Nro: "<<this->codigo<<endl;
